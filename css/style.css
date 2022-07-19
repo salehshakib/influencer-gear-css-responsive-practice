@@ -18,7 +18,11 @@ body{
 
 
 /* navbar style */
-
+.menu{
+    display: none;
+    font-size: 24px;
+    padding: 0 17px 0 17px;
+}
 nav .container {
     display: flex;
     justify-content: space-between;
@@ -40,11 +44,7 @@ nav ul li{
     color: #3A3A3A;
     font-size: 16px;
 }
-.menu{
-    display: none;
-    font-size: 24px;
-    padding: 0 17px 0 17px;
-}
+
 
 .navs .icon{
     font-size: 24px;
